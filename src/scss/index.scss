@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-900 text-gray-200 m-0 overflow-x-hidden;
+
+  .main {
+    display: grid;
+    grid-template-rows: 1fr repeat(4, auto);
+    gap: 10rem;
+    padding-inline: 4rem;
+  }
+}
+
+::selection {
+  @apply bg-purple-600 text-white;
+}
+
+.liElement {
+  @apply relative cursor-pointer;
+
+  &::after {
+    @apply content-[""] bg-purple-600 absolute top-[100%] left-[-7.5%] bottom-[-10%] right-[-7.5%] scale-x-0 origin-bottom-right rounded-full transition-transform duration-[400ms];
+  }
+
+  &:hover::after {
+    @apply scale-x-[1] origin-bottom-left;
+  }
+}
+
+.animated-border {
+  animation: rotateBorder 20s infinite linear;
+}
+
+@keyframes rotateBorder {
+  0% {
+    border-radius: 77% 23% 73% 27% / 50% 56% 44% 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  50% {
+    border-radius: 35% 65% 53% 47% / 37% 74% 26% 63%;
+  }
+
+  100% {
+    border-radius: 77% 23% 73% 27% / 50% 56% 44% 50%;
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.gradient-title {
+  background-image: linear-gradient(90deg, #ffffff, #8a2be2);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s infinite linear;
+
+  @apply font-montserrat text-transparent bg-clip-text text-5xl align-middle mb-8;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 100% 50%;
+  }
+
+  50% {
+    background-position: 0 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.normal-text {
+  @apply font-roboto text-2xl leading-relaxed;
+}
+
+.skew-image {
+  @apply w-full h-full object-cover grayscale hover:grayscale-0 hover:scale-105 transition-all;
+}
+
+.skew-text {
+  @apply text-xl text-white absolute bottom-4 left-1/2 -translate-x-1/2 skew-x-[18deg] font-montserrat w-[150%] text-center select-none opacity-0 group-hover:opacity-100 transition-opacity bg-gray-900/60 leading-10;
+}

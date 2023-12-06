@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="99.972 -4.081 912.809 462.595" xmlns="http://www.w3.org/2000/svg">
+  <rect x="153.773" y="34.789" width="8.8" height="386.288" rx="10" ry="10" style="stroke: rgba(0, 0, 0, 0); fill: rgb(196, 181, 253);"/>
+  <rect x="217.243" y="41.467" width="8.8" height="807.914" rx="10" ry="10" style="stroke: rgba(0, 0, 0, 0); fill: rgb(196, 181, 253); transform-origin: 221.643px 445.424px;" transform="matrix(0, 1, -1, 0, 336.916173186413, -28.167339197634)"/>
+  <text style="fill: rgb(196, 181, 253); font-family: Arial, sans-serif; font-size: 28px; white-space: pre; transform-origin: 50.2334px -9.78616px;" transform="matrix(0, -0.722620904446, 0.722617805004, 0, 87.567633784889, 216.650230339015)">RANGA</text>
+  <text style="fill: rgb(196, 181, 253); font-family: Arial, sans-serif; font-size: 28px; white-space: pre;" transform="matrix(0.7226179242134094, 0, 0, 0.722620964050293, 528.1175643535854, 443.7386564031781)">CZAS</text>
+  <rect x="135.839" y="35.63" width="24.775" height="8.259" rx="10" ry="10" style="fill: rgb(196, 181, 253); stroke: rgba(0, 0, 0, 0); transform-origin: 148.227px 39.7595px;" transform="matrix(0.573575019836, -0.819153010845, 0.819151103497, 0.573578000069, 4.492559244135, 5.990681638256)"/>
+  <rect x="135.839" y="35.63" width="24.775" height="8.259" rx="10" ry="10" style="fill: rgb(196, 181, 253); stroke: rgba(0, 0, 0, 0); transform-origin: 148.227px 39.76px;" transform="matrix(0.573575019836, 0.819153010845, -0.819151103497, 0.573578000069, 17.168403993483, 6.925902341057)"/>
+  <rect x="135.839" y="35.63" width="24.775" height="8.259" rx="10" ry="10" style="fill: rgb(196, 181, 253); stroke: rgba(0, 0, 0, 0); transform-origin: 148.227px 39.76px;" transform="matrix(0.819151103497, 0.573578000069, -0.573575019836, 0.819153010845, 804.720383707408, 371.034521356809)"/>
+  <rect x="135.839" y="35.63" width="24.775" height="8.259" rx="10" ry="10" style="fill: rgb(196, 181, 253); stroke: rgba(0, 0, 0, 0); transform-origin: 148.227px 39.76px;" transform="matrix(-0.819151103497, 0.573578000069, -0.573575019836, -0.819153010845, 803.785057011304, 383.710544921278)"/>
+  <path style="fill: rgba(216, 216, 216, 0); stroke: rgb(196, 181, 253); stroke-width: 8px; stroke-linecap: round;" d="M 184.215 394.111 L 537.983 394.111 C 610.885 393.366 707.251 400.283 728.404 348.942"/>
+  <path style="fill: rgb(196, 181, 253); stroke: rgb(196, 181, 253); stroke-width: 8px; stroke-linecap: round;" d="M 729.211 347.971 L 842.494 137.293 L 910.212 4.161"/>
+  <path style="fill: rgba(216, 216, 216, 0); stroke: rgb(196, 181, 253);" d="M 536.492 156.511 L 694.322 356.967 L 699.443 343.797"/>
+  <path style="fill: rgba(196, 181, 253, 0); stroke: rgb(196, 181, 253); transform-origin: 614.417px 257.959px;" d="M 511.776 337.464 L 713.433 178.458 L 714.063 192.617" transform="matrix(0, 1.000004053116, -0.999996006489, 0, 0.000010144575, 0.000011196011)"/>
+  <text style="fill: rgb(196, 181, 253); font-family: Arial, sans-serif; font-size: 28px; white-space: pre;" transform="matrix(0.7212529182434082, 0, 0, 0.7212559580802917, 413.69724344426646, 126.66432445195899)"><tspan>MOMENT ROZPOCZECIA </tspan><tspan x="0" dy="1em">​</tspan><tspan>NASZYCH SZKOLEŃ</tspan></text>
+</svg>
